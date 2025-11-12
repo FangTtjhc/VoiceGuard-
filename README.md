@@ -15,4 +15,4 @@ VoiceGuard 是一个基于 Flask 框架开发的现代化、智能化的访客�
 LLM 交互requests用于调用第三方 LLM API 进行数据结构化。语音处理librosa, pydub, speech_recognition声纹提取、音频标准化、语音转文本。数据处理pandas, numpy数据结构化存储、CSV 读写。系统FFmpeg/FFprobe音频格式转换和处理工具（需单独安装和配置路径）。
 
 快速部署环境配置: 安装 Python 依赖，并确保安装了 FFmpeg 并配置了路径（见 app.py 中 FFMPEG_BIN_DIR 配置）。API 配置:配置 LLM API 密钥：设置环境变量 OPENAI_API_KEY。配置邮件服务：确保 email_test.py 中的 SMTP 账号和密码已通过环境变量安全加载。运行:HTTP: python app.pyHTTPS: 确保 server.crt 和 server.key 证书文件存在于根目录。许可证本项目采用 MIT 许可证 开放源代码。欢迎 fork、提交 Pull Request，共同改进！
-![82a0652e4e64f72d717073c73daad4f](https://github.com/user-attachments/assets/7e10154f-cd80-48a3-a500-03062d52824c)
+<img src="https://github.com/user-attachments/assets/7e10154f-cd80-48a3-a500-03062d52824c" alt="项目配置截图" width="50%">
